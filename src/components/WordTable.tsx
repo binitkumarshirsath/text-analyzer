@@ -5,22 +5,22 @@ interface WordTableProps {
 
 const WordTable = ({ characters, words }: WordTableProps) => {
   return (
-    <div className="relative overflow-x-auto">
-      <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-        <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-          <tr>
-            <th scope="col" className="px-6 py-3">
-              Characters
-            </th>
-            <th scope="col" className="px-6 py-3">
+    <div className=" sm:rounded-lg w-[500px]">
+      <table className="border-collapse bg-white overflow-x-auto text-left border  border-slate-100 md:w-[500px]">
+        <thead>
+          <tr className="font-sans font-medium text-base">
+            <th className="border-2 border-slate-100 p-3 font-sans bg-[#FFFFFF] font-medium text-base text-[#475467] ">
               Words
+            </th>
+            <th className="border-2 border-slate-100 p-3 font-sans bg-[#FFFFFF] font-medium text-base text-[#475467] ">
+              Characters
             </th>
           </tr>
         </thead>
         <tbody>
-          <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-            <td className="px-6 py-4">{characters}</td>
-            <td className="px-6 py-4">{words}</td>
+          <tr>
+            <td className="border-2 border-slate-100 p-3">{words}</td>
+            <td className="border-2 border-slate-100 p-3">{characters}</td>
           </tr>
         </tbody>
       </table>

@@ -14,7 +14,7 @@ const ProcessPara = () => {
         autoFocus
         rows={10}
         cols={10}
-        className=" px-3 mb-4 py-2 rounded-sm focus:none outline-none"
+        className=" px-3 mb-4 py-2 rounded-sm focus:none outline-none border-2 border-[#D2D6DB]"
         placeholder="Type of copy/paste your content here..."
         value={para}
         onChange={(e) => setPara(e.target.value)}

@@ -16,7 +16,7 @@ const WordParaComponent = () => {
                 : " "
             }`}
           >
-            Word
+            Word Input
           </button>
           <button
             onClick={() => setActiveTab("para")}
