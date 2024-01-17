@@ -12,6 +12,7 @@ const ProcessWord = () => {
     <div className="flex w-full flex-col mt-3">
       <input
         type="text"
+        autoFocus
         className="h-10 mb-4 px-3 py-2 rounded-sm focus:none outline-none"
         placeholder="Start typing here..."
         value={text}

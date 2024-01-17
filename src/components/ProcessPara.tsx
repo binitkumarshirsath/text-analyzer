@@ -9,8 +9,9 @@ const ProcessPara = () => {
     analyzeText(para);
 
   return (
-    <div className="flex w-full h-full flex-col mt-3">
+    <div className="flex  w-full flex-col mt-3">
       <textarea
+        autoFocus
         rows={10}
         cols={10}
         className=" px-3 mb-4 py-2 rounded-sm focus:none outline-none"

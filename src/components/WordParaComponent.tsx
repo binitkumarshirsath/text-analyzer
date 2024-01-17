@@ -5,7 +5,7 @@ import ProcessPara from "./ProcessPara";
 const WordParaComponent = () => {
   const [activeTab, setActiveTab] = useState<"word" | "para">("word");
   return (
-    <div className="flex flex-col  w-full h-full">
+    <div className="flex flex-col   w-full ">
       <div className="flex flex-col p-2 w-full ">
         <div className="flex max-md:flex-col   tab max-w-fit ">
           <button
