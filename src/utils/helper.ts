@@ -13,6 +13,7 @@ export const analyzeText = (text: string) => {
   const paragraphs = countParagraphs(text);
   return { sentences, characters, words, spaces, punctuations, paragraphs };
 };
+
 export function countPunctuations(text: string) {
   // Define a regular expression to match punctuations
   const punctuationRegex = /[!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~]/g;
