@@ -1,4 +1,7 @@
 export const calculateWordsAndCharacters = (text: string) => {
+  if (text.trim() === "") {
+    return { characters: 0, words: 0 };
+  }
   const characters = text.length;
   const words = text.trim().split(/\s+/).length;
   return { characters, words };
