@@ -5,7 +5,7 @@ interface WordTableProps {
 
 const WordTable = ({ characters, words }: WordTableProps) => {
   return (
-    <div className=" sm:rounded-lg w-[500px]">
+    <div className="sm:rounded-lg ">
       <table className="border-collapse bg-white overflow-x-auto text-left border  border-slate-100 md:w-[500px]">
         <thead>
           <tr className="font-sans font-medium text-base">

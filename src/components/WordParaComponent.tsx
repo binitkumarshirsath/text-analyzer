@@ -7,10 +7,10 @@ const WordParaComponent = () => {
   return (
     <div className="flex flex-col   w-full ">
       <div className="flex flex-col p-2 w-full ">
-        <div className="flex max-md:flex-col   tab max-w-fit ">
+        <div className="flex max-md:flex-col text-center  tab max-w-fit ">
           <button
             onClick={() => setActiveTab("word")}
-            className={`px-32 py-2 rounded-md ${
+            className={`px-32 py-2 rounded-md whitespace-nowrap ${
               activeTab === "word"
                 ? " bg-white   shadow-sm border border-red-100"
                 : " "

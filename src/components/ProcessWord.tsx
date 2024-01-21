@@ -20,7 +20,7 @@ const ProcessWord = () => {
           className="h-10  px-3 w-10/12 py-2 border border-[#D2D6DB] rounded-sm focus:none outline-none"
           onChange={(e) => setText(e.target.value)}
         />
-        <button className="bg-[#731EE2] text-[#FFFFFF] px-3 py-2 font-sans font-normal rounded-sm  text-sm">
+        <button className="bg-[#731EE2] whitespace-nowrap text-[#FFFFFF] px-3 py-2 font-sans font-normal rounded-sm  text-sm">
           Process Word
         </button>
       </div>

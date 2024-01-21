@@ -16,7 +16,7 @@ const ParaTable = ({
   punctuations,
 }: ParaTableProps) => {
   return (
-    <div className="relative overflow-x-auto">
+    <div className="relative overflow-x-auto mb-4">
       <table className="border-collapse overflow-x-auto bg-white text-left border  border-slate-100 w-full">
         <thead>
           <tr className="font-sans font-medium text-base">
